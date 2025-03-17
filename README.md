@@ -5,6 +5,8 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 ![Status](https://img.shields.io/badge/status-Live-brightgreen)
 
+![Bangla++ Logo]([https://github.com/tanzil-islam/your-repo/blob/main/images/your-image.png](https://github.com/Tanzil-islam/Bangla-plus-plus/blob/main/images/Bangla%2B%2B.png))
+
 ## 🚀 Live Demo
 
 Try Bangla++ online: [https://bangla-plus-plus.onrender.com](https://bangla-plus-plus.onrender.com)
