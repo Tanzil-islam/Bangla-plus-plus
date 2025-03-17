@@ -77,9 +77,9 @@ bangla-plus-plus/
 
 ```
 // Example Bangla++ code
-ধরি x = 10;
-ধরি y = 20;
-দেখাও(x + y);
+purnosongkha x = 10;
+purnosonhkha y = 20;
+bolo(x + y);
 ```
 
 ## 🤝 Contributing
