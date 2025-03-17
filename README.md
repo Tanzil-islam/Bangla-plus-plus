@@ -61,27 +61,42 @@ bangla-plus-plus/
 
 2. Variable declarations:
    ```
-   npm install
+   purnosongkha x=5;
+   doshomiksongkha y=5.9;
+   bakko a="Tamzol";
+   borno b="T";
+   s= shotto;
+   m= mittha;
+   bolo("The value of x is:",x);
+   bolo("The value of y is:",y);
+   bolo("The value of a is:",a);
+   bolo("The value of b is:",b);
+   bolo("The value of s is:",s);
+   bolo("The value of m is:",m);
    ```
 
-3. Start the development server:
+3. Conditionals:
    ```
-   npm run dev
+   jodi(5>6){
+   bolo(5);
+   nahole{
+   bolo(6);
+   }
    ```
 
-4. Open your browser and navigate to:
+4. Loops:
    ```
-   http://localhost:3000
+   chokro(purnosongkha i=0; i<10;i=i+1)
+   {
+   bolo(i);
+   }
    ```
-
-## 📝 Usage
-
-```
-// Example Bangla++ code
-purnosongkha x = 10;
-purnosonhkha y = 20;
-bolo(x + y);
-```
+   ```
+   do{
+   bolo(i);
+   i=i+1;
+   }while(i<2);
+   ```
 
 ## 🤝 Contributing
 
