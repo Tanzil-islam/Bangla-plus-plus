@@ -1,0 +1,33 @@
+{
+  "name": "banglish-language",
+  "version": "1.0.0",
+  "description": "A Bengali-English hybrid programming language",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node server.ts",
+    "build": "tsc && cp -r public dist/",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "banglish",
+    "programming-language",
+    "interpreter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banglish Programming Language</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bangla++</h1>
+            <h5 class="creator-tag">Made by <a href="https://github.com/Tanzil-islam">@tanzil-islam</a></h5>
+            <p>A Bengali-English hybrid programming language</p>
+        </header>
+
+        <main>
+            <div class="editor-container">
+                <div class="editor-header">
+                    <h2>Code Editor</h2>
+                    <div class="actions">
+                        <button id="run-btn">Run</button>
+                        <button id="clear-btn">Clear</button>
+                        <select id="example-select">
+                            <option value="">Select Example</option>
+                            <option value="hello">Hello World</option>
+                            <option value="variables">Variables</option>
+                            <option value="conditionals">Conditionals</option>
+                            <option value="loops">Loops</option>
+                        </select>
+                    </div>
+                </div>
+                <textarea id="code-editor" placeholder="Write your Banglish code here..."></textarea>
+            </div>
+
+            <div class="output-container">
+                <div class="output-header">
+                    <h2>Output</h2>
+                    <button id="copy-output">Copy</button>
+                </div>
+                <div id="output"></div>
+            </div>
+        </main>
+
+        <section class="docs">
+            <h2>Getting Started</h2>
+            <p>Banglish is a programming language that combines Bengali and English syntax to make programming more accessible to Bengali speakers.</p>
+            
+            <h3>Syntax Guide</h3>
+            <div class="syntax-examples">
+                <div class="syntax-grid">
+                    <!-- Column 1 -->
+                    <div class="syntax-column">
+                        <div class="syntax-card print">
+                            <h4>Hello World</h4>
+                            <code>bolo ("Hello World!");</code>
+                        </div>
+                        
+                        <div class="syntax-card vars">
+                            <h4>Variable and Operators</h4>
+                            <code>
+                                purnosongkha x=1;<br>
+                                doshomiksongkha y=1.2;<br>
+                                a= shotto;<br>
+                                b=mittha;<br>
+                                bolo(a);<br>
+                                bolo(b);<br>
+                                bolo(x+y);<br>
+                                bolo(x-y);<br>
+                                bolo(x*y);<br>
+                                bolo(x/y);<br>
+                            </code>
+                        </div>
+                    </div>
+                    
+                    <!-- Column 2 -->
+                    <div class="syntax-column">
+                        <div class="syntax-card str">
+                            <h4>borno-bakko</h4>
+                            <code>
+                                borno x= "A";<br>
+                                bakko y="Tanzil";<br>
+                                bolo(x);<br>
+                                bolo(y);<br>
+                            </code>
+                        </div>
+                        
+                        <div class="syntax-card conditional">
+                            <h4>Conditional Sentences</h4>
+                            <code>
+                                bakko x="Hello Bd"; <br>
+                                bakko b="Hell0"; <br>
+                                jodi(x=b){ <br>
+                                    bolo(x); <br>
+                                } <br>
+                                nahole{ <br>
+                                    bolo(b); <br>
+                                } <br>
+                                bolo ("Hello World!"); <br>
+                            </code>
+                        </div>
+                        
+                        <div class="syntax-card loop">
+                            <h4>Loops</h4>
+                            <h5>//chokro</h5>
+                            <code>
+                                purnosongkha x = 9; <br>
+                                chokro(purnosongkha i=0 ; i < x ; i=i+1) <br>
+                                    bolo(i);<br>
+                            </code>
+                            
+                            <h5>//koro-jotokhon</h5>
+                            <code>
+                                purnosongkha x=9;<br>
+                                purnosongkha y=0;<br>
+                                
+                                koro{ <br>
+                                bolo(x);<br>
+                                y=y+1;<br>
+                                x=x-1;<br>
+                                }jotokhon(y < 8);<br>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy;Kazi Md Tanzil Islam</p>
+            <div class="links">
+                <a href="https://github.com/Tanzil-islam" target="_blank">GitHub</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
