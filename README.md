@@ -1,5 +1,6 @@
 # Bangla++ Programming Language
 
+
 ![License](https://img.shields.io/badge/license-Custom-red)
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 ![Status](https://img.shields.io/badge/status-Live-brightgreen)
@@ -94,28 +95,13 @@ This project is licensed under a Custom License - see the [LICENSE](./LICENSE) f
 
 ## 👨‍💻 Author
 
-- Your Name
-- Contact: [your-email@example.com](mailto:your-email@example.com)
+- Kazi Md Tanzil Islam
+- Contact: [kazimdtanzilislam@gmail.com]
 
 ## 🙏 Acknowledgements
 
-- Inspiration from other bilingual programming languages
-- The Bengali-speaking developer community
+- Inspiration from other custom programming languages
+- The Bengali content developer community
 
 ---
 
-<div align="center">
-  <h3>
-    <a href="https://bangla-plus-plus.onrender.com">
-      Website
-    </a>
-    <span> | </span>
-    <a href="https://github.com/yourusername/bangla-plus-plus/issues">
-      Report Bug
-    </a>
-    <span> | </span>
-    <a href="https://github.com/yourusername/bangla-plus-plus/issues">
-      Request Feature
-    </a>
-  </h3>
-</div>
