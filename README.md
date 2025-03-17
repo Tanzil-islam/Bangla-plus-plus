@@ -52,15 +52,14 @@ bangla-plus-plus/
 - Node.js (v14 or higher)
 - npm
 
-### Installation
+### Usage
 
-1. Clone the repository:
+1. General:
    ```
-   git clone https://github.com/yourusername/bangla-plus-plus.git
-   cd bangla-plus-plus
+   bolo("Hello World");
    ```
 
-2. Install dependencies:
+2. Variable declarations:
    ```
    npm install
    ```
