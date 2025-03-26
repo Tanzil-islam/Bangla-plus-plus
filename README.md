@@ -92,10 +92,10 @@ bangla-plus-plus/
    }
    ```
    ```
-   do{
+   koro{
    bolo(i);
    i=i+1;
-   }while(i<2);
+   }jotokhon(i<2);
    ```
 
 ## 🤝 Contributing
