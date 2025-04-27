@@ -29,6 +29,7 @@ body {
 
 .container {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -332,4 +333,155 @@ select:hover {
     background-color: var(--editor-blue);
     border-radius: 4px;
     overflow-x: auto;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .creator-tag {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet breakpoint */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .syntax-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .actions {
+        flex-wrap: wrap;
+    }
+    
+    .editor-header, .output-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .editor-header .actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    #code-editor, #output {
+        height: 300px;
+    }
+    
+    .docs {
+        padding: 20px;
+    }
+    
+    .docs h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 480px) {
+    header {
+        padding: 20px 15px;
+    }
+    
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .creator-tag {
+        font-size: 0.9rem;
+        padding: 4px 10px;
+    }
+    
+    header p {
+        font-size: 0.9rem;
+    }
+    
+    button, select {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+    
+    .editor-header h2, .output-header h2 {
+        font-size: 1.1rem;
+    }
+    
+    #code-editor, #output {
+        padding: 15px;
+        font-size: 14px;
+        height: 250px;
+    }
+    
+    .syntax-card {
+        padding: 12px;
+    }
+    
+    .syntax-card code {
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .docs h2 {
+        font-size: 1.3rem;
+    }
+    
+    .docs h3 {
+        font-size: 1.1rem;
+    }
+    
+    .docs p {
+        font-size: 14px;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 360px) {
+    .actions {
+        gap: 5px;
+    }
+    
+    button, select {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .docs {
+        padding: 15px;
+    }
+}
+
+/* Footer responsive styling */
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border-color);
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
 }
